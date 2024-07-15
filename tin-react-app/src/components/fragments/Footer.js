@@ -1,7 +1,7 @@
 function Footer() {
     return (
         <footer>
-            Azamat, Maraimbekov, s22850
+            Batuhan
         </footer>
     )
 }

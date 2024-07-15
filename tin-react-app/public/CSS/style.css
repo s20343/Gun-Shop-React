@@ -22,7 +22,7 @@ nav {
 
 header,
 footer {
-    background-color: darkgreen;
+    background-color: #7ca57c;
     color: whitesmoke;
     padding: 1rem;
 }
@@ -74,7 +74,7 @@ nav ul li a:hover {
     color: #ecf0f1;
 }
 nav ul li a.active {
-    background-color: green;
+    background-color: #7ca57c;
     color: #ecf0f1;
 
 }
@@ -107,7 +107,7 @@ main h2 {
 }
 .table-list th,
 .table-list tbody tr:nth-child(even) {
-    background-color: green;
+    background-color: #7ca57c;
 }
 
 /*Action buttons*/
