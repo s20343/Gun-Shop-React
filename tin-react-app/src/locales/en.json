@@ -1,0 +1,158 @@
+{
+  "main-page": {
+    "content": "Main Page",
+    "text": "Text text text..."
+  },
+  "auth": {
+    "pageTitle": "Log in",
+    "password": "Password",
+    "logOut": "Log out"
+  },
+  "nav": {
+    "main-page": "Main page",
+    "customers": "Customers",
+    "appointments": "Appointments",
+    "gunSellers": "Gun Sellers"
+  },
+  "list": {
+    "actions": {
+      "title": "Actions",
+      "details": "Details",
+      "edit": "Edit",
+      "delete": "Delete"
+    }
+  },
+  "form": {
+    "actions": {
+      "add": "Add",
+      "return": "Return",
+      "edit": "Edit",
+      "cancel": "Cancel"
+    },
+    "validation": {
+      "messages": {
+        "notEmpty": "Field is required",
+        "min_date": "The field should contain a date not earlier than today",
+        "max_date": "The field should contain a date not later than 1 January 2024",
+        "min_2": "The field should contain more than 2 characters",
+        "max_60": "The field should contain less than 60 characters",
+        "min_10": "The field should contain more than 10 characters",
+        "max_15": "The field should contain more than 15 characters",
+        "validPhone": "The field should contain a valid phone number",
+        "validNumber": "The field should contain a number",
+        "min_number": "The field should contain a number more than 5000",
+        "max_number": "The field should contain a number more than 50000",
+        "summary": "Field contains errors"
+      }
+    }
+  },
+  "cus": {
+    "fields": {
+      "firstName": "First name",
+      "lastName": "Last name",
+      "nickName": "nickName",
+      "phoneNumber": "Phone Number"
+    },
+    "list": {
+      "title": "Customers",
+      "addNew": "Add new customer",
+      "noData": "No customers in database",
+      "pageTitle": "List of customers"
+    },
+    "details": {
+      "title": "Customer details",
+      "gunSeller": "Gun Seller",
+      "date": "Meeting date",
+      "location": "Meeting place"
+    },
+    "form": {
+      "appointments": "History of appointments",
+      "add": {
+        "pageTitle": "Adding a new customer",
+        "btnLabel": "Add the customer",
+        "confirm": {
+          "header": "Confirmation",
+          "text": "The new customer has been successfully created"
+        }
+      },
+      "edit": {
+        "pageTitle": "Editing a customer",
+        "btnLabel": "Save changes",
+        "confirm": {
+          "header": "Confirmation",
+          "text": "The customer has been successfully updated"
+        }
+      }
+    }
+  },
+  "gun": {
+    "fields": {
+      "gunNick": "NickName",
+      "experience": "Experience",
+      "salary": "Salary (PLN)"
+    },
+    "list": {
+      "title": "Gun Sellers",
+      "addNew": "Add new gun seller",
+      "noData": "No gun sellers in database",
+      "pageTitle": "Gun Seller List"
+    },
+    "details": {
+      "title": "Gun seller Details",
+      "customer": "Customer",
+      "date": "Meeting date",
+      "location": "Meeting place"
+    },
+    "form": {
+      "appointments": "History of appointments",
+      "add": {
+        "pageTitle": "Adding a new gun seller",
+        "btnLabel": "Add the gun seller",
+        "confirm": {
+          "header": "Confirmation",
+          "text": "New gun seller was successfully added"
+        }
+      },
+      "edit": {
+        "pageTitle": "Editing a gun seller",
+        "btnLabel": "Save changes",
+        "confirm": {
+          "header": "Confirmation",
+          "text": "The gun seller was successfully changed"
+        }
+      }
+    }
+  },
+  "app": {
+    "fields": {
+      "customer": "Customer Phone Number",
+      "gunSeller": "Gun Seller NickName",
+      "date": "Meeting Date",
+      "location": "Meeting place"
+    },
+    "list": {
+      "title": "Appointments",
+      "addNew": "Add new appointment",
+      "noData": "No appointments in database",
+      "pageTitle": "Appointment List"
+    },
+    "form": {
+      "add": {
+        "pageTitle": "Adding a new appointment",
+        "btnLabel": "Add the appointment",
+        "confirm": {
+          "header": "Confirmation",
+          "text": "New appointment was successfully added"
+        }
+      },
+      "edit": {
+        "pageTitle": "Editing an appointment",
+        "btnLabel": "Save changes",
+        "confirm": {
+          "header": "Confirmation",
+          "text": "The appointment was successfully changed"
+        }
+      }
+    }
+  }
+}
